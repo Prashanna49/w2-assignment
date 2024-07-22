@@ -6,11 +6,10 @@ body {
     color: #333;
 }
 
-header {
+.header {
     background-color: #8B4513;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+    
 }
 
 main {
@@ -80,5 +79,13 @@ main {
 
 .back-link:hover {
     text-decoration: underline;
+}
+.menu-items{
+    display: flex !important;
+    justify-content: space-evenly;
+}
+.footer-col{
+    display: flex;
+    justify-content: space-evenly;
 }
 

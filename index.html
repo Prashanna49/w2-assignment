@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe Shop</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        .product{
-	float: left;
-	margin-top: 150px;
-    margin-right: 40px;
-    margin-left: 40px;
+    <link rel="stylesheet" href="style.css">
+    
+      <style>
+        .product-container{
+            display: flex;
+            justify-content: space-evenly;
+            height: 25rem;
         }
+        .footer-col{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+      </style> 
 
-        .header{
-            text-align: center;
-            margin-top: 100px;
-        }
-    </style>
+      
+    
 </head>
 <body>
     <header>
-        <h1 class="header" style="color: aqua; text-decoration: dotted;">Welcome to Our Coffee Shop</h1>
+        <h1 class="header" style="color: aqua; text-decoration: dotted;">Logo</h1>
+    <div class = "menu-items" style="display: flex; justify-content: space-evenly; position: relative; bottom: 50px;">
+        <h3>Home</h3>
+        <h3>About</h3>
+        <h3>Contact</h3>
+        <h3>Shop</h3>
+    </div>
+        
         </header>
     <main>
         <div class="product-container">
@@ -51,14 +61,23 @@
                 <h5>Price:Npr 100</h5>
             </div>
         </div>
-    </main>
+    </div>
 </div>
+    </main>
+
 
   
 
-</ul>
 
 
-</div>
+<footer>
+    <div class="footer-col">
+        <h3>Home</h3>
+        <h3>About</h3>
+        <h3>Contact</h3>
+        <h3>Shop</h3>
+    </div>
+    </footer>
+
 </body>
 </html>
